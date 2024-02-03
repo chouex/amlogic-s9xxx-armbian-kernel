@@ -47,11 +47,12 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-rk35xx-ophub"
+        default: "-rk35xx-chou"
         type: choice
         options:
           - -rk35xx-ophub
           - -happy-new-year
+          - -rk35xx-chou
           - -yourname
       kernel_config:
         description: "Set the path of kernel .config"
